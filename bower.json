@@ -1,0 +1,13 @@
+{
+  "name": "workspace",
+  "version": "0.0.0",
+  "authors": [
+    "everettwolf <everettwolf@gmail.com>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "angular": "~1.4.3",
+    "bootstrap": "~3.3.5"
+  }
+}
