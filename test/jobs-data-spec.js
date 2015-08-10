@@ -13,7 +13,7 @@ describe("get jobs", function() {
 
     var jobs;
     before(function(done) {
-        jobsData.connectDB('mongodb://dev:dev@ds033123.mongolab.com:33123/jobfinder')
+        jobsData.connectDB('mongodb://dev:dev@ds033123.mongolabss.com:33123/jobfinder')
             .then(resetJobs)
             .then(jobsData.seedJobs)
             .then(jobsData.findJobs)
