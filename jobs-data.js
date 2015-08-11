@@ -33,6 +33,8 @@ exports.seedJobs = function() {
     });
 };
 
+exports.saveJob = createJob;
+
 var jobs = [
     {title: 'Cook', description: 'You will be making bagels' },
     {title: 'Waiter', description: 'You will be serving tables'},
